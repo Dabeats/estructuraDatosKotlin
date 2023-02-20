@@ -19,4 +19,10 @@ fun main() {
 
     user="David"
     println(user+password)
+
+    //Para recorrer un Par lo hacemos mediante un forEach y poniendo como parameros el primer y segundo elemento y ultimamente imprimimmos
+
+    pair.forEach { (first, second) ->
+        println("$first $second")
+    }
 }
